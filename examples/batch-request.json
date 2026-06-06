@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "id": "upload-001",
+      "image": "BASE64_ENCODED_JPEG_IMAGE_PLACEHOLDER",
+      "image_type": "jpeg"
+    },
+    {
+      "id": "upload-002",
+      "image": "BASE64_ENCODED_PNG_IMAGE_PLACEHOLDER",
+      "image_type": "png"
+    },
+    {
+      "id": "upload-003",
+      "image": "BASE64_ENCODED_WEBP_IMAGE_PLACEHOLDER",
+      "image_type": "webp"
+    }
+  ],
+  "top_k": 3
+}

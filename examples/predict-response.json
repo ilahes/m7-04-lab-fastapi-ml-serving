@@ -1,0 +1,26 @@
+{
+  "request_id": "req_01HZY8D9A9K4QK6R9V2T8M3N1P",
+  "model_version": "vision-moderation-v3.2.1",
+  "predictions": [
+    {
+      "label": "safe",
+      "probability": 0.9821
+    },
+    {
+      "label": "suggestive_content",
+      "probability": 0.0124
+    },
+    {
+      "label": "graphic_violence",
+      "probability": 0.0032
+    },
+    {
+      "label": "explicit_nudity",
+      "probability": 0.0017
+    },
+    {
+      "label": "self_harm",
+      "probability": 0.0006
+    }
+  ]
+}

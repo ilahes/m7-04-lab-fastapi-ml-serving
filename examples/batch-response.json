@@ -1,0 +1,51 @@
+{
+  "request_id": "req_01HZY8E2BN8R4GJ3ZD6P6DXM5E",
+  "model_version": "vision-moderation-v3.2.1",
+  "results": [
+    {
+      "id": "upload-001",
+      "status": "succeeded",
+      "predictions": [
+        {
+          "label": "safe",
+          "probability": 0.9742
+        },
+        {
+          "label": "suggestive_content",
+          "probability": 0.0206
+        },
+        {
+          "label": "graphic_violence",
+          "probability": 0.0052
+        }
+      ]
+    },
+    {
+      "id": "upload-002",
+      "status": "succeeded",
+      "predictions": [
+        {
+          "label": "graphic_violence",
+          "probability": 0.8418
+        },
+        {
+          "label": "safe",
+          "probability": 0.1135
+        },
+        {
+          "label": "explicit_nudity",
+          "probability": 0.0447
+        }
+      ]
+    },
+    {
+      "id": "upload-003",
+      "status": "failed",
+      "error": {
+        "code": "CORRUPT_IMAGE",
+        "message": "The image could not be decoded as a valid JPEG, PNG, or WebP file.",
+        "request_id": "req_01HZY8E2BN8R4GJ3ZD6P6DXM5E"
+      }
+    }
+  ]
+}
